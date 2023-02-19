@@ -2,7 +2,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/qed-cdr.jar
+ARG JAR_FILE=target/qed-cdr-aso.jar
 
 # cd /opt/app
 WORKDIR /opt/app
